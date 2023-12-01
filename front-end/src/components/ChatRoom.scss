@@ -1,0 +1,35 @@
+@media only screen and (max-width: 768px) {
+    .chat-container {
+        flex-direction: column;
+    }
+
+    .chat-list {
+        width: 100%;
+    }
+
+    .chat-room {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 769px) {
+    .chat-container {
+        flex-direction: row;
+    }
+
+    .chat-list {
+        width: 25%;
+    }
+
+    .chat-room {
+        width: 75%;
+    }
+}
+
+
+.custom-input,
+.custom-button {
+    height: 40px;
+    /* Điều chỉnh chiều cao theo ý muốn */
+    /* Các thuộc tính khác như margin, padding cũng có thể được thêm vào để điều chỉnh vị trí và kích thước */
+}
